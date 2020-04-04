@@ -1,0 +1,30 @@
+.fab {
+    width: 70px;
+    height: 70px;
+    background-color: #A24936;
+    border-radius: 50%;
+    /* transition: all 0.1s ease-in-out; */
+  
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 70px;
+  
+    position: fixed;
+
+ }
+  
+ .fab:hover {
+    transform: scale(1.05);
+ }
+
+ .fab.plus{
+    right: 5%;
+    top: 70%;
+ }
+
+ .fab.minus{
+    right: 5%;
+    top: 85%;
+ }
+  

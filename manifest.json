@@ -1,0 +1,30 @@
+{
+    "name": "Whereby Commander Lifecounter",
+    "version": "1.0",
+    "description": "Keep track of your life in your nameplate easily! Click to subtract/add life.",
+    "permissions": [
+        "declarativeContent",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://whereby.com/*"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "popup.js"
+            ],
+            "css": [
+                "popup.css"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
