@@ -3,8 +3,7 @@
     "version": "0.0.0.1",
     "description": "Keep track of your life in your nameplate easily! Click to subtract/add life.",
     "permissions": [
-        "declarativeContent",
-        "activeTab"
+        "declarativeContent"
     ],
     "background": {
         "scripts": [
