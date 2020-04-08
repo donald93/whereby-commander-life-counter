@@ -35,7 +35,7 @@ function updateLife(numberToUpdateBy) {
 
 
 function createButtons(element) {
-    var parent = element.closest('.VideoCell-2RSl')
+    var parent = element.closest('.gridVideoCell-3Ztk')
     addPlusButton(parent);
     addMinusButton(parent);
 }
