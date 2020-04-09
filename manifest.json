@@ -1,6 +1,6 @@
 {
-    "name": "Whereby Commander Lifecounter",
-    "version": "0.0.0.1",
+    "name": "Whereby Commander Life Counter",
+    "version": "0.0.0.2",
     "description": "Keep track of your life in your nameplate easily! Click to subtract/add life.",
     "permissions": [
         "declarativeContent"
