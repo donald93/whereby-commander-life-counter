@@ -18,10 +18,10 @@
             ],
             "run_at": "document_end",
             "js": [
-                "popup.js"
+                "main.js"
             ],
             "css": [
-                "popup.css"
+                "main.css"
             ]
         }
     ],
